@@ -1,0 +1,20 @@
+:root{ font-family: 'Arvo', serif;
+	font-size: 20px; };
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+body,body *
+{
+	margin:unset;
+	box-sizing:unset;
+	padding:unset;
+	font-size:unset;
+	color:unset; 
+	text-decoration: unset;
+}

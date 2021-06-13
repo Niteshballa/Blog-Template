@@ -1,0 +1,172 @@
+body, body *
+{
+		line-height: 1px;
+		word-spacing: 3px;
+}
+article
+{
+	display:grid;
+	grid-template-columns:1fr 0.5in[start] 0.75in minmax(0,6in) 0.75in [end]0.5in 1fr;
+	height:100vh;
+	padding: 0.5in 0;
+}
+article * 
+{
+	grid-column: start/end;
+
+}
+@media(max-width:8.5in)
+{
+	grid-template-columns:1fr 5%[start] 10% 70% 10% [end]5% 1fr;
+
+}
+
+figcaption
+{
+	display:flex;
+	justify-content:center;
+	margin-top: -10px;
+}
+.size-1 img,.size-2 img,.size-3 img,.size-4 img
+{
+	width:100%;
+	padding-bottom: 1rem;
+}
+.size-1
+{
+	grid-column: 4/5;
+}
+.size-2
+{
+	grid-column: 3/6;
+}
+.size-3
+{
+	grid-column: 2/7;
+}
+.size-4
+{
+	grid-column: 1/8;
+}
+h2, p:not(:last-child){	margin-bottom:1.5rem; }
+a
+{
+	color: hsl(000, 0%,20%);
+	text-decoration: none;
+}
+h1
+{
+	font: 700 2.0rem/1.2 "Arvo";
+	margin-bottom: 0px;
+}
+@media(max-width: 8.5in)
+{
+h1
+{
+	font: 700 1.5rem/1.2 "Arvo";
+	color: hsl(000, 0%,33%);
+}
+}
+h2
+{
+	font: 400 1.3rem/1.2 "Arvo";
+
+	color: hsl(000, 0%,33%);
+}
+time
+{
+	font: 700 1rem/1.2 "Arvo";
+	color: hsl(250, 100%,83%);
+}
+h4
+{
+	font: 400 1.0rem/1.2 "Arvo";
+	font-style: italic;
+	color: hsl(000, 0%,33%);
+}
+p
+{
+	font: 400 1.0rem/1.2 "Arvo";
+	color: hsl(000, 0%,33%);
+	margin-top: 0px;
+}
+figcaption p
+{
+	font: 400 0.7rem/1.2 "Arvo";
+
+	color: hsl(000, 0%,50%);
+	margin-bottom: 1.5rem;
+}
+h3
+{
+	font: 700 1.0rem/1.2 "Arvo";
+	margin-top: 0px;
+	margin-bottom: 0.5rem;
+	color: hsl(250, 100%,67%);
+}
+@media(max-width: 8.5in)
+{
+	:root
+	{
+		font-size: 18px;
+	};
+}
+@media(max-width: 5in)
+{
+	:root
+	{
+		font-size: 16px;
+	};
+}
+.share img
+{
+	width: 1.50rem;
+	height: 1.50rem;
+	padding-right: 20px;
+}
+.share
+{
+	display:flex;
+	justify-content: center;
+}
+.info img
+{
+	padding-right: 0.50rem;
+	width: 1.50rem;
+	height: 1.50rem;
+}
+.info h4
+{
+	display: flex;
+	margin-top: 0px;
+	align-items: center;
+
+	height: 1.50rem;
+}
+.info time
+{
+	display: flex;
+	align-items: center;
+	height: 1.50rem;
+}
+.info
+{
+	display:flex;
+	justify-content: left;
+	margin-top: 0.75rem;
+	height: 2.5rem;
+}
+.heading 
+{
+	height:1.8rem;
+	padding-top: 9px;
+	text-align: center;
+	background-color: hsl(000, 0%,20%);
+}
+.heading h1
+{
+	font-size: 1.2rem;
+	color: white;
+	font-family: 'Tenor Sans', sans-serif;
+	letter-spacing:3px; 
+}
