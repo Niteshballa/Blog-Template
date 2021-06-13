@@ -2,8 +2,8 @@
 A Beautiful Blog Template for blog writers completely easy coded in Html and Css.<br/><br/>
 
 # Debug
-A Debug.css file is created to debug the spaces and content of the Blog. You can use the debugging in the blog by uncommenting the line
-<!--<link rel="stylesheet" type="text/css" href="debug.css">--> .<br/><br/>
+A Debug.css file is created to debug the spaces and content of the Blog. You can use the debugging in the blog by uncommenting the line 13
+<--link rel="stylesheet" type="text/css" href="debug.css">--> .<br/><br/>
 
 # Reset
 The Reset.css file is created to remove the browser default properties. I already included the external reset.css file to the index.html.<br/><br/>
